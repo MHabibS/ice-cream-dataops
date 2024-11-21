@@ -21,15 +21,15 @@ variables:
       
       # Groups
       # OBJECT ID FOR PROD DATA PIPELINE OEE ENTRA GROUP
-      data_pipeline_oee_source_id: 3ddddbb2-8632-4cda-922e-0f412013be27
+      data_pipeline_oee_source_id: e4766a3d-143f-4e04-b8b2-ef7f8d0517ff
       # OBJECT ID FOR PROD ADMIN TK ENTRA GROUP
-      readwrite_source_id: 08fff13c-465a-4a16-9588-b19161b42070
+      readwrite_source_id: f1132eb5-9e77-4912-8d2e-7d5739441d99
       # OBJECT ID FOR PROD ADMIN TK ENTRA GROUP
-      readonly_source_id: 08fff13c-465a-4a16-9588-b19161b42070
+      readonly_source_id: f1132eb5-9e77-4912-8d2e-7d5739441d99
       # OBJECT ID FOR PROD ICAPI EXTRACTORS ENTRA GROUP
-      icapi_extractors_source_id: cb3eaca7-6f3c-4155-8031-46f2e57551f2
+      icapi_extractors_source_id: d5510a17-6ab8-4bad-a481-b877ded41f55
       # OBJECT ID FOR PROD DATA DEVELOPER ENTRA GROUP
-      data_developer_source_id: 018309b4-d4ef-4749-8a94-c1d6a9691693
+      data_developer_source_id: b077791a-8544-440e-94f7-a415ddbb2873
 
       
       # Client Ids
