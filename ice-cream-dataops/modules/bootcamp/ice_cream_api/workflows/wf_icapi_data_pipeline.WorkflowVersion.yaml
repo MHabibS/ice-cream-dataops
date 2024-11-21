@@ -1,4 +1,4 @@
-workflowExternalId: wf_icapi_data_pipeline
+workflowExternalId: wf_icapi_data_pipeline1
 version: '1'
 workflowDefinition:
   tasks:
@@ -20,7 +20,7 @@ workflowDefinition:
     retries: 3
     timeout: 3600
     onFailure: abortWorkflow
-    depends on:
+    dependsOn:
     - externalId: icapi_assets_extractor
   
   - externalId: icapi_timeseries_extractor
@@ -40,7 +40,7 @@ workflowDefinition:
     retries: 3
     timeout: 3600
     onFailure: abortWorkflow
-    depends on:
+    dependsOn:
     - externalId: icapi_timeseries_extractor
   
   - externalId: icapi_ts_assets_contextualization
@@ -52,7 +52,7 @@ workflowDefinition:
     retries: 3
     timeout: 3600
     onFailure: abortWorkflow
-    depends on:
+    dependsOn:
     - externalId: icapi_timeseries_extractor
     - externalId: create_asset_hierarchy
 
@@ -64,6 +64,6 @@ workflowDefinition:
     retries: 3
     timeout: 3600
     onFailure: abortWorkflow
-    depends on:
+    dependsOn:
     - externalId: icapi_ts_assets_contextualization
     - externalId: icapi_datapoints_extractor
