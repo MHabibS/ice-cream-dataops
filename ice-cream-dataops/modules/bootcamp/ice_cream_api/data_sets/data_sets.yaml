@@ -1,2 +1,6 @@
 name: 'Ice Cream Factory Source Data'
+<<<<<<< HEAD
 externalId: '{{icapi_ds_external_id}}'
+=======
+externalId: '{{icapi_ds_external_id}}'
+>>>>>>> refs/remotes/origin/main
